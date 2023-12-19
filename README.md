@@ -23,3 +23,6 @@ This project was created by Aniket Chugh (www.postforest.in) and modified for pu
 This project is designed for educational and informational purposes. Ensure compliance with the terms of use of the respective websites when utilizing the search functionality.
 
 Feel free to customize the description according to your preferences and provide additional details about the project.
+
+## Have a live demo here - 
+https://aniket-chugh.github.io/Amazon-Best-deals-founder-tool-script/
