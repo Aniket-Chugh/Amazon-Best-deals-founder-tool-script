@@ -1,0 +1,89 @@
+/* Css is done by postforest.in */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 800px; /* Set a maximum width for larger screens */
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5em; /* Use 'em' for better responsiveness */
+    margin-top: 20px;
+    color: #333; /* Use a more readable text color */
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Improved spacing between elements */
+    background-color: #ffd6e1; /* Better color choice */
+    padding: 2.5em;
+    border-radius: 15px;
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Adjusted width for better responsiveness */
+    margin: 0 auto;
+  }
+  
+  input, textarea {
+    padding: 12px;
+    font-size: 16px; /* Adjusted font size for better readability */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.4s ease-in-out;
+    width: 100%;
+  }
+  
+  .input:hover {
+    box-shadow: 6px 6px 0px #ccc, -3px -3px 10px #ffffff;
+  }
+  
+  .input:focus {
+    background: #ffffff;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid #666;
+  }
+  
+  .form .btn {
+    margin-top: 1.5em;
+    align-self: center;
+    padding: 0.7em 1em;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn {
+    background-color: #3498db; /* Adjusted button color */
+    width: 100%; /* Full width for better responsiveness */
+  }
+  
+  .form .btn:hover {
+    box-shadow: 6px 6px 0px #ccc, -3px -3px 10px #ffffff;
+    transform: translateX(-0.5em) translateY(-0.5em);
+  }
+  
+  .form .btn:active {
+    transition: 0.2s;
+    transform: translateX(0) translateY(0);
+    box-shadow: none;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555; /* Improved label color */
+  }
+  
